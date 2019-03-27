@@ -12,8 +12,8 @@
 * Write a personal note by clicking the "Add Note" button next to each saved article and it will also be stored via Mongo DB for future or current access.  
 * You also have the option to delete any saved articles and notes, by clicking the "Delete" button.
 
-### This is a full stack application that uses front end frameworks such as, HTML, CSS, Express-Handlebars & Bootstrap
-### Back end framework include, Express, Mongoose, Cheerio, Axios, AJAX, Node 
+### This is a full stack application that uses front-end frameworks: HTML, CSS & Bootstrap
+### Back-end framework/packages include, Express, Mongoose, Cheerio, Axios, AJAX, Node 
 ### This app can be ran via Node (Terminal/Bash) using the command line: ` node server.js '
-### Application is also deployed through Heroku at the following link:
+### Application is also deployed via Heroku: https://still-ocean-78764.herokuapp.com/
 
