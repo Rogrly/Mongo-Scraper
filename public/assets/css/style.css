@@ -1,0 +1,114 @@
+body, html {
+    height: 100%;
+}
+
+body {
+    background-image: url("../images/bg.jpg");
+}
+.title {
+    margin: 0px;
+    background: url("../images/banner.gif") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+#headerFont {
+    font-family: 'Sawarabi Mincho', sans-serif;
+    color: rgb(194, 61, 0);
+    font-size: 50px;
+    border-bottom: 2px solid rgb(194, 61, 0);
+    background-color: white;
+    opacity:0.7;
+}
+
+
+
+#navbar {
+    background-image: url("../images/border.png");
+	padding: 10px 30px 10px 30px;
+	font-family: 'Sawarabi Mincho', sans-serif;
+	overflow: hidden;
+}
+
+.navLink {
+    color: white;
+    margin-right: 50px;
+}
+/* Setting Navbar Sticky */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-image: url(../images/border.png);
+    z-index: 2;
+}
+
+.card-header {
+    background-image: url(../images/border.png);
+}
+
+.card {
+    margin-top: 20px;
+}
+
+.card-body {
+    border: 2px solid black;
+}
+
+.headlineLink {
+    text-decoration: none;
+    color: white
+}
+
+.headlineLink:hover {
+    text-decoration: none;
+    color: red;
+}
+
+p {
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.articleImage {
+    width: 100%
+}
+
+.buttonColumn {
+    margin-right: 0px
+}
+
+.saveArticleButton {
+    margin-top: 10px;
+    padding: 10px;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.modal-header {
+    background-image: url(../images/banner.png);
+    color: white;
+    font-family: 'Sawarabi Mincho', sans-serif;
+}
+
+.buttonRow {
+    margin-top: 10px
+}
+
+#titleinput,
+#bodyinput {
+    width: 100%
+}
+
+.articleContainer {
+    padding-bottom: 50px;
+    padding-top: 20px
+}
+
+.noteCard {
+    display: block;
+    width: 100%
+}
+
+.noteCardBody {
+    color: black
+}
